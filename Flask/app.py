@@ -1,7 +1,7 @@
 import pickle 
 from flask import Flask,render_template,request
 
-model=pickle.load(open("model.pkl","rb"))
+model=pickle.load(open("promotion.pkl","rb"))
 app = Flask(__name__)
 
 @app.route('/')
